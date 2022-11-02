@@ -1,0 +1,233 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #424549;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    height: 100vh;
+    width: 100vw;
+}
+.nav{
+    background-color: #282b30; 
+    float: left;
+    width: 22.5vw;
+    height: 100%;
+    box-shadow: 0.3vw 0vw #7289da, 0.1vw 0vw 1vw black;
+}
+.navtitle{
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Mono One', Arial;
+    font-weight: 100;
+    font-size: 1.8vw;
+    text-shadow: 0.225vw 0.225vw #1e2124, 0 0 1.25vw rgb(255, 255, 255, 0.2);
+    margin-bottom: 3.5vw;
+}
+.by{
+    font-size: 0.85vw;
+    text-shadow: 0.185vw 0.185vw #1e2124;
+    color: white;
+    text-decoration: none;
+}
+.by :hover{
+    color: #7289da;
+}
+.navlogo{
+    width: 7vw;
+    margin: auto;
+    filter: drop-shadow(0px 0px 17.5px rgb(236, 167, 4, 0.2));
+  
+}
+.how{
+    font-family: Arial;
+    font-size: 0.85vw;
+    color: white;
+    text-shadow: 0.125vw 0.125vw #282b30;
+    text-align: center;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-top: -1.85vw;
+    margin-bottom: 1.75vw;
+}
+.map{
+    font-family: 'Rubik Mono One', Arial;
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0.15vw 0.15vw #282b30;
+}
+.mapbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424549;
+    border-radius: 1vw;
+    width: 12.5vw;
+    height: 2vw;
+    margin: auto;
+    margin-bottom: 0.85vw;
+    box-shadow: 0.225vw 0.225vw #1e2124;
+}
+.map :hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7289da;
+    border-radius: 1vw;
+    width: 12.5vw;
+    height: 2vw;
+    margin: auto;
+    margin-bottom: 0.85vw;
+}
+.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7289da;
+    border-radius: 1vw;
+    width: 12.5vw;
+    height: 2vw;
+    margin: auto;
+    margin-bottom: 0.85vw;
+}
+.other{
+    font-family: 'Rubik Mono One', Arial;
+    color: white;
+    font-weight: 100;
+    font-size: 0.85vw;
+    text-align: center;
+    margin-top: 3.25vw;
+}
+.guidebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424549;
+    border-radius: 1vw;
+    width: 16vw;
+    height: 1.5vw;
+    margin: auto;
+    margin-bottom: 0.85vw;
+    box-shadow: 0.165vw 0.165vw #1e2124;
+}
+.guide{
+    font-family: 'Rubik Mono One', Arial;
+    color: white;
+    font-weight: 100;
+    font-size: 0.65vw;
+    text-align: center;
+    margin-top: 4vw; 
+    text-decoration: none;
+}
+.guide :hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7289da;
+    border-radius: 1vw;
+    width: 16vw;
+    height: 1.5vw;
+    margin: auto;
+    margin-bottom: 0.85vw;
+    box-shadow: 0.165vw 0.165vw #1e2124;
+}
+.footer{
+    border-top: 0.3vw solid #7289da;
+    font-family: Arial;
+    font-size: 0.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 0.07vw 0.07vw #282b30;
+    position: fixed;
+    bottom: 0;
+    width: 22.5vw;
+}
+.award{
+    float: left;
+    font-size: 1vw;
+    color: #eca704;
+    margin-left: 0.35vw;
+}
+.heart{
+    color: red;
+    text-shadow: none;
+    filter: drop-shadow(0px 0px 7.5px red);
+}
+canvas{
+    position: fixed;
+    margin-top: 1vw;
+    height: 800px;
+    width: 800px;
+    left: 25vw;
+    border: 2px solid #1e2124;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.5);
+}
+.distance{
+    position: fixed;
+    left: 36.5vw;
+    top: 43.25vw;
+    font-family: Arial;
+    color: white;
+    text-shadow: 1.5px 2px 2.5px black;
+}
+.distancedetails{
+    position: fixed;
+    left: 37.65vw;
+    top: 45.6vw;
+    font-family: Arial;
+    color: white;
+    text-shadow: 1.33px 1.33px 2px black;
+    font-size: large;
+    font-style: italic;
+}
+.display{
+    left: 48vw;
+}
+.buttoncontainer{
+    position: fixed;
+    left: 25.05vw;
+    top: 43.5vw; 
+}
+.button{
+    background-color: #7289da;
+    border-radius: 10px;
+}
+.buttoncontainer :hover{
+    background-color: hwb(227 30% 15%);
+}
+.development{
+    position: fixed;
+    left: 25vw;
+    bottom: -0.325vw;
+    font-family: Arial;
+    font-size:small;
+    text-align: right;
+}
+.indexcanvas{
+    background-image: url('assets/erangel.png');
+    background-size: 100%;
+}
+.karakincanvas{
+    background-image: url('assets/karakin.jpg');
+    background-size: 100%;
+}
+.miramarcanvas{
+    background-image: url('assets/miramar.jpg');
+    background-size: 100%;
+}
+.sanhokcanvas{
+    background-image: url('assets/sanhok.png');
+    background-size: 100%;
+}
+.taegocanvas{
+    background-image: url('assets/taego.png');
+    background-size: 100%;
+}
+.vikendicanvas{
+    background-image: url('assets/vikendi.png');
+    background-size: 100%;
+}

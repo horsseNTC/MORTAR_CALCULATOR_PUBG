@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>horsse's PUBG Measure</title>
+    <link rel="icon" href="assets/Profile.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,1,0" />
+</head>
+<body>
+
+    <div class="nav">
+        
+        <h1 class="navtitle">
+        <img class="navlogo" src="assets/pubg-logo-1.png"><br>
+        MORTAR<br>
+        CALCULATOR<br>
+        <span class="by"><a class="by" target="_blank" href="https://steamcommunity.com/id/horssentc">made by horsse</a></span>
+        </h1>
+
+        <div class="menu">
+            <p class="how">Pick two points on the map and get the distance between them. You can use this distance to shoot the mortar.</p>
+            <a class="map" href="index.html"><div class="mapbox">Erangel</div></a>
+            <a class="map" href="miramar.html"><div class="mapbox">Miramar</div></a>
+            <a class="map" href="sanhok.html"><div class="mapbox">Sanhok</div></a>
+            <a class="map" href="vikendi.html"><div class="mapbox">Vikendi</div></a>
+            <a class="map" href="taego.html"><div class="active mapbox">Taego</div></a>
+            <a class="map" href="karakin.html"><div class="mapbox">Karakin</div></a>
+        </div>
+
+        <h2 class="other">OTHER GUIDES I MADE</h2>
+        <div class="guides">
+            <a class="guide" target="_blank" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2734996706"><div class="guidebox">Taego Secret Key Locations<br></div></a>
+        </div>
+
+        <div class="footer">
+            <h1 class="award">PLEASE CONSIDER GIVING AN STEAM AWARD IF HELPFUL! <span class="material-symbols-outlined heart">favorite</span></h1>
+            <h1 class="madeby">made by horsse</h1>
+        </div>
+        
+    </div>
+
+
+    <script type="module" src="taego.js"></script>
+    <canvas class="taegocanvas" id="myCanvas" width="800" height="800">
+    </canvas>
+    
+    <h1 class="distance">DISTANCE =</h1>
+    <h1 class="distancedetails">IN METERS (m)</h1>
+
+    <h1 class="distance display" id="display">DISTANCE_GOES_HERE</h1>
+
+    <div class="buttoncontainer">
+        <button class="button">
+            <h1 class="buttontext" id="button">CLEAR MAP</h1>
+        </button>
+    </div>
+
+    <h1 class="development">This website is still under development. Bugs are expected. Optmized for 1920x1080 desktop viewing only.</h1>
+    
+
+</body>
+</html>
