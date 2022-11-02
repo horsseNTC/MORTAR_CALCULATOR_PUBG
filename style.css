@@ -208,26 +208,26 @@ canvas{
     text-align: right;
 }
 .indexcanvas{
-    background-image: url('assets/erangel.png');
+    background-image: url('erangel.png');
     background-size: 100%;
 }
 .karakincanvas{
-    background-image: url('assets/karakin.jpg');
+    background-image: url('karakin.jpg');
     background-size: 100%;
 }
 .miramarcanvas{
-    background-image: url('assets/miramar.jpg');
+    background-image: url('miramar.jpg');
     background-size: 100%;
 }
 .sanhokcanvas{
-    background-image: url('assets/sanhok.png');
+    background-image: url('sanhok.png');
     background-size: 100%;
 }
 .taegocanvas{
-    background-image: url('assets/taego.png');
+    background-image: url('taego.png');
     background-size: 100%;
 }
 .vikendicanvas{
-    background-image: url('assets/vikendi.png');
+    background-image: url('vikendi.png');
     background-size: 100%;
 }
