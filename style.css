@@ -98,7 +98,7 @@ body{
     font-weight: 100;
     font-size: 0.85vw;
     text-align: center;
-    margin-top: 3.25vw;
+    margin-top: 1.65vw;
 }
 .guidebox{
     display: flex;
@@ -208,26 +208,30 @@ canvas{
     text-align: right;
 }
 .indexcanvas{
-    background-image: url('erangel.png');
+    background-image: url('assets/erangel.png');
     background-size: 100%;
 }
 .karakincanvas{
-    background-image: url('karakin.jpg');
+    background-image: url('assets/karakin.jpg');
     background-size: 100%;
 }
 .miramarcanvas{
-    background-image: url('miramar.jpg');
+    background-image: url('assets/miramar.jpg');
     background-size: 100%;
 }
 .sanhokcanvas{
-    background-image: url('sanhok.png');
+    background-image: url('assets/sanhok.png');
     background-size: 100%;
 }
 .taegocanvas{
-    background-image: url('taego.png');
+    background-image: url('assets/taego.png');
     background-size: 100%;
 }
 .vikendicanvas{
-    background-image: url('vikendi.png');
+    background-image: url('assets/vikendi.png');
     background-size: 100%;
+}
+.destoncanvas{
+    background-image: url('assets/deston.png');
+    background-size: 100%; 
 }
